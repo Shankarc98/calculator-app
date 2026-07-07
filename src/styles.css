@@ -1,0 +1,45 @@
+
+.container{
+    height: 100vh;
+    width: 320px; 
+    background-color: rgb(240, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.dis{
+    height: 10%;
+    width: 220px;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+    border-radius: 10px;
+
+}
+.calc{
+    background-color: rgb(218, 202, 233);
+    height: 11%;  
+    width: 22%;  
+    font-size: 15px;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+.btncont{
+    height: 85%;
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+button{
+    height: 15%;
+    width: 83px;
+    border-radius: 50%;
+    font-size: large;
+    background-color: white;
+}
