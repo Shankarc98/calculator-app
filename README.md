@@ -25,7 +25,24 @@ HTML
 
 ## Project Structure
 ```
-calculator-app/ │ ├── public/ ├── src/ │ ├── Components/ │ │ └── Button.jsx │ ├── App.jsx │ ├── index.js │ ├── main.jsx │ └── styles.css │ ├── index.html ├── package-lock.json ├── package.json ├── README.md ├── package.json ├── README.md └── vite.config.js
+calculator-app/
+│
+├── public/
+├── src/
+│ ├── Components/
+│ │ └── Button.jsx
+│ ├── App.jsx
+│ ├── index.js
+│ ├── main.jsx
+│ └── styles.css
+│
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── package.json
+├── README.md
+└── vite.config.js
 ```
 ## How it works ? 
 The calculator keeps track of:
