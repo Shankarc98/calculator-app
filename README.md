@@ -3,7 +3,7 @@ A Calculator Application that supports basic arithmetic operations like addition
 
 
 ## Live Demo
-calculator-app-ecru-nu.vercel.app
+[View the app](https://calculator-app-ecru-nu.vercel.app/)
 
 ## Why this Project ? 
 This project was created to practice React state management, event handling, conditional logic, and calculator operations such as addition, subtraction, multiplication, division, remainder, and decimal input.
