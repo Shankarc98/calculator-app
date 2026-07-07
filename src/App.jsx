@@ -87,12 +87,7 @@ function App(){
     function isDigit(last){
     return last >= '0' && last <= '9';
   }
-  
-  function decimalPlaces(num){
-      const number = num.toString(); 
-      const places = number.split('.')[1].length; 
-      return places; 
-  }
+    
 
   function cleared(){
     setScr("");
@@ -137,8 +132,11 @@ function App(){
 
   }
   return <div className="container">
-    <input type="text" size="20" className="dis" value={scr}></input>
-    <div className="calc"><p>{cal}</p></div>
+    <div className = "display-container">
+      <input type="text" size="20" className="dis" value={scr}></input>
+      <div className="calc"><p className = "answer">{cal}</p></div>
+    </div>
+    
     <div className="btncont">
       <Button onClick={() => handleClick('1')}  disp="1"/>
       <Button onClick={() => handleClick('2')}  disp="2"/>

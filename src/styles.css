@@ -9,9 +9,16 @@
     border-radius: 10px;
 }
 
+.display-container{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    
+}
+
 .dis{
-    height: 10%;
-    width: 220px;
+    height: 50%;
+    width: 295px;
     font-size: 20px;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
@@ -21,14 +28,21 @@
 }
 .calc{
     background-color: rgb(218, 202, 233);
-    height: 11%;  
-    width: 22%;  
+    height: 30%;  
+    width: 298px;  
     font-size: 15px;
     margin-top: 0.5rem;
-    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;    
+    border-radius: 10px;   
+}
+
+.answer{
+    margin-left: 0.5rem;
+    margin-top: 8px;
 }
 .btncont{
-    height: 85%;
+    height: 77%;
     width: 100%;
     display: flex; 
     flex-wrap: wrap;
@@ -38,7 +52,7 @@
 
 button{
     height: 15%;
-    width: 83px;
+    width: 81px;
     border-radius: 50%;
     font-size: large;
     background-color: white;
